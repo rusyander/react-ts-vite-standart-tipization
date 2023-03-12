@@ -7,6 +7,7 @@ import Center from "./childrens/Center";
 import PropsMain from "./limitedProps/PropsMain";
 import PolimorfApp from "./polimorfComponents/PolimorfApp";
 import FormApp from "./formTipizations/FormApp";
+import MainApp from "./toolkitTS/MainApp";
 
 function App(): JSX.Element {
   const [value, setValue] = useState<string>("");
@@ -89,6 +90,9 @@ function App(): JSX.Element {
         <hr />
         <h1>Login form</h1>
         <FormApp />
+
+        <h1>REDUX TOLKIT</h1>
+        <MainApp />
       </div>
     </div>
   );
